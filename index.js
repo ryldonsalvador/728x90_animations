@@ -1111,11 +1111,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_1.png?1657725492380", id:"_1"},
-		{src:"images/_2.png?1657725492380", id:"_2"},
-		{src:"images/_3.png?1657725492380", id:"_3"},
-		{src:"images/bg.png?1657725492380", id:"bg"},
-		{src:"images/logo.png?1657725492380", id:"logo"}
+		{src:"_1.png?1657729418502", id:"_1"},
+		{src:"_2.png?1657729418502", id:"_2"},
+		{src:"_3.png?1657729418502", id:"_3"},
+		{src:"bg.png?1657729418502", id:"bg"},
+		{src:"logo.png?1657729418502", id:"logo"}
 	],
 	preloads: []
 };
