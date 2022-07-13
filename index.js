@@ -25,28 +25,28 @@ lib.ssMetadata = [];
 
 
 
-(lib._1 = function() {
-	this.initialize(img._1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,42,45);
-
-
-(lib._2 = function() {
-	this.initialize(img._2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,42,45);
-
-
-(lib._3 = function() {
-	this.initialize(img._3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,151,156);
-
-
 (lib.bg = function() {
 	this.initialize(img.bg);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,728,90);
+
+
+(lib.image1 = function() {
+	this.initialize(img.image1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,42,45);
+
+
+(lib.image2 = function() {
+	this.initialize(img.image2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,42,45);
+
+
+(lib.image3 = function() {
+	this.initialize(img.image3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,151,156);
 
 
 (lib.logo = function() {
@@ -83,7 +83,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._3();
+	this.instance = new lib.image3();
 	this.instance.setTransform(0,0,0.3311,0.3311);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -105,7 +105,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._3();
+	this.instance = new lib.image3();
 	this.instance.setTransform(0,0,0.424,0.4238);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -250,7 +250,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._1();
+	this.instance = new lib.image1();
 	this.instance.setTransform(32,0,0.5952,0.5956);
 
 	this.shape = new cjs.Shape();
@@ -336,7 +336,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._2();
+	this.instance = new lib.image2();
 	this.instance.setTransform(34,0,0.5952,0.5955);
 
 	this.shape = new cjs.Shape();
@@ -1111,11 +1111,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"_1.png?1657729418502", id:"_1"},
-		{src:"_2.png?1657729418502", id:"_2"},
-		{src:"_3.png?1657729418502", id:"_3"},
-		{src:"bg.png?1657729418502", id:"bg"},
-		{src:"logo.png?1657729418502", id:"logo"}
+		{src:"bg.png?1657730061729", id:"bg"},
+		{src:"image1.png?1657730061729", id:"image1"},
+		{src:"image2.png?1657730061729", id:"image2"},
+		{src:"image3.png?1657730061729", id:"image3"},
+		{src:"logo.png?1657730061729", id:"logo"}
 	],
 	preloads: []
 };
